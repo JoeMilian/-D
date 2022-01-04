@@ -1,0 +1,17 @@
+id: idk
+
+info:
+  name: :)
+  author: a
+  severity: low
+  description: :)
+
+requests:
+  - payloads:
+      headers: headers.txt
+
+    raw:
+      - |
+        GET / HTTP/1.1
+        Host: {{Hostname}}
+        §headers§: payloadandshit
